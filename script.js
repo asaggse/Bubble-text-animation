@@ -2,7 +2,6 @@ const phrase = "The quick brown fox jumps over the lazy dog";
 
 const targetEl = document.getElementById("bubble-hover");
 
-// phrase.split("").map((char, idx) => {
 phrase.split("").forEach((char, idx) => {
     const el = document.createElement("span");
     el.innerText = char;
@@ -15,14 +14,12 @@ phrase.split("").forEach((char, idx) => {
 const hoverChars = [...document.getElementsByClassName("hover-char")];
 
 const removeClasses = () => {
-    // hoverChars.map((char) => {
     hoverChars.forEach((char) => {
         char.classList.remove("hovered");
         char.classList.remove("hovered-adjacent");
     });
 };
 
-// hoverChars.map((char) => {
 hoverChars.forEach((char) => {
     char.addEventListener("mouseover", (e) => {
         removeClasses();
