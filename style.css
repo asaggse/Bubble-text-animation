@@ -1,14 +1,7 @@
-/*
-    Colors:
-    dark blue: #0F0C29;
-
-*/
-
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Roboto', sans-serif; */
     font-family: system-ui;
 
     transition: all;
@@ -22,8 +15,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-
-    /* font-size: clamp(50px, 8vw, 100px); */
 }
 
 h1 {
