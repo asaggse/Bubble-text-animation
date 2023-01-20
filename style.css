@@ -9,6 +9,18 @@
     /* transition-duration: 500ms; */
 }
 
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+.input-field{
+    color: #B3B3FE;
+    font-family: system-ui;
+    font-size: 25px;
+    padding: 0 0 20px;
+}
+
 body {
     background: #0F0C29;
     display: flex;
@@ -18,8 +30,8 @@ body {
 }
 
 h1 {
-    /* font-size: 90px; */
-    font-size: clamp(50px, 8vw, 100px);
+    font-size: 45px;
+    /* font-size: clamp(50px, 8vw, 100px); */
     color: #B3B3FE;
     font-weight: 100;
 
